@@ -1,0 +1,20 @@
+{
+  "name": "time-mark-now",
+  "version": "1.0.0",
+  "description": "Returns the current timestamp in YYYY-MM-DD HH:MM:SS format with 'Current Date' and 'Current Time' labels.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "timestamp",
+    "date",
+    "time",
+    "format",
+    "current",
+    "utility",
+    "simple"
+  ],
+  "author": "Yuti",
+  "license": "ISC"
+}

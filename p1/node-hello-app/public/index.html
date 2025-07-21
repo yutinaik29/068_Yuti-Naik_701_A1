@@ -1,0 +1,24 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hello NodeJS App</title>
+  <script>
+    function fetchHello() {
+      fetch('/gethello')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('message').innerText = data;
+        })
+        .catch(error => {
+          console.error('Error:', error);
+        });
+    }
+  </script>
+</head>
+<body>
+  <h1>Welcome to NodeJS App</h1>
+  <button onclick="fetchHello()">Get Hello Message</button>
+  <p id="message"></p>
+</body>
+</html>
